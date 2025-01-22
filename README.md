@@ -1,5 +1,4 @@
-```markdown
-# Weather Monitoring System Using Deep Learning
+## Weather Monitoring System Using Deep Learning
 
 This project leverages IoT devices, Raspberry Pi, BMP 180 sensor, and an LDR to monitor environmental factors. Data from these sensors is uploaded to ThingSpeak and downloaded as a CSV file to train a deep learning model. The goal is to predict faulty sensor values, detect inaccuracies, and identify sensors requiring replacement.
 
@@ -169,29 +168,4 @@ To use this weather monitoring system:
 4. Run the script to train the model and evaluate its performance.
 5. Review the output for Mean Absolute Error (MAE) to assess the accuracy of predictions and identify faulty sensors.
 
----
 
-## Contributing
-
-Contributions are welcome! Follow these steps to contribute:
-1. Fork this repository.
-2. Create a branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Submit a pull request with a detailed description of your changes.
-
----
-
-## Contact
-
-For questions, suggestions, or collaborations, please feel free to:
-- Open an issue in the repository.
-- Reach out directly via email or GitHub discussions.
-
----
-
-## Acknowledgments
-
-This project demonstrates how IoT and deep learning can work together to maintain sensor accuracy in weather monitoring systems. Special thanks to all open-source contributors whose tools and libraries made this possible.
-```
-
-You can copy this and paste it directly into your `README.md` file for GitHub! Let me know if further modifications are required.
