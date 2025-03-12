@@ -145,19 +145,6 @@ The training process includes:
 
 ---
 
-## Results
-
-After training the model, the performance is evaluated, and the results are summarized below:
-
-- **Temperature**: `<mae_temperature>` MAE
-- **Pressure**: `<mae_pressure>` MAE
-- **Light Intensity**: `<mae_light_intensity>` MAE
-
-> Note: Replace the placeholders with actual values after running the code.
-
-The results highlight the system's ability to detect faulty sensors by comparing predicted and actual sensor values. Significant deviations indicate potential sensor issues.
-
----
 
 ## Usage
 
