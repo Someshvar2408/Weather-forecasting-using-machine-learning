@@ -1,4 +1,4 @@
-## Weather Monitoring System Using Deep Learning
+## Weather Monitoring System Using Machine Learning
 
 This project leverages IoT devices, Raspberry Pi, BMP 180 sensor, and an LDR to monitor environmental factors. Data from these sensors is uploaded to ThingSpeak and downloaded as a CSV file to train a deep learning model. The goal is to predict faulty sensor values, detect inaccuracies, and identify sensors requiring replacement.
 
@@ -32,7 +32,7 @@ Accurate environmental monitoring is critical in various applications, but senso
 The system integrates:
 - **IoT Devices**: Collect environmental data (temperature, pressure, light intensity).
 - **ThingSpeak Cloud**: Serves as a platform to store and retrieve sensor data.
-- **Deep Learning Models**: Predict and identify sensor faults.
+- **Machine Learning Models**: Predict and identify sensor faults.
 - **CSV Dataset**: Facilitates training and evaluation of the models.
 
 ### Hardware Components
@@ -135,11 +135,11 @@ print('Mean Squared Error - Light Intensity:', mse_light_intensity)
 
 ## Model Training and Evaluation
 
-The system uses a deep learning model to predict environmental factors such as temperature, pressure, and light intensity. The model identifies faulty sensor values by detecting anomalies between predicted and actual readings.
+The system uses a machine learning model to predict environmental factors such as temperature, pressure, and light intensity. The model identifies faulty sensor values by detecting anomalies between predicted and actual readings.
 
 The training process includes:
 1. **Data Normalization**: Ensures all features are scaled appropriately.
-2. **Deep Learning Model**: A neural network with hidden layers designed to capture patterns in the data.
+2. **Machine Learning Model**: 3 different linear regression models were trained for each parameter.
 3. **Loss Function**: Mean Squared Error (MSE) is used for optimization.
 4. **Evaluation Metric**: Mean Absolute Error (MAE) is used to evaluate the model's performance.
 
